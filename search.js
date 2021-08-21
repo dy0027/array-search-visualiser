@@ -11,7 +11,7 @@ for (let index = 0; index < 10; index++) {
     
 }
 
-array = array.sort()
+array.sort()
 svg.setAttribute("width", 80*array.length+1) 
 setup(0,10,20,70)
 
