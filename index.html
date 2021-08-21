@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    
+    <svg height="350" width="150">
+        <g id = 'array'>
+        </g>
+    </svg>
+
+      <div>
+
+        <form onsubmit="return start()">
+            <label for="searchfor">Number to search for</label>
+            <input type="number" id = "searchfor">
+            
+            <label for="options">Choose search algorithm</label>
+            <select name="options" id="options">
+                <option value="binary">Binary</option>
+                <option value="linear">Linear</option>
+            </select>
+            <input type="submit" value="Start" id="submit">
+        </form>
+    </div>
+
+
+      <button id = "reset" class= "button" onclick="window.location.reload()">Reset</button>
+
+    <script src="search.js"></script>
+
+</body>
+</html>
